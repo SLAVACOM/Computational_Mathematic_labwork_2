@@ -6,7 +6,7 @@ import system.NonlinearSystem
 import utill.IterationLogger
 import kotlin.math.abs
 
-class NewtonSimpleSolver : Solver, IterationLogger("Simple Iteration Custom", n = 2) {
+class NewtonSimpleSolver(start: Vector) : Solver, IterationLogger("Simple Iteration Custom", n = 2) {
 
     override fun solve(system: NonlinearSystem, start: Vector, eps: Double): Decision {
         var x = start.copy()

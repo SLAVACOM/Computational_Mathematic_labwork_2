@@ -1,5 +1,6 @@
 import system.System2D
 import math.Vector
+import solver.NewtonSimpleSolver
 import solver.NewtonSolver
 import solver.SimpleIterationSolver
 import solver.Solver
@@ -15,7 +16,7 @@ fun main() {
     val strategies: Map<Int, Solver> = mapOf(
         1 to NewtonSolver(start),
         2 to SimpleIterationSolver(start),
-        3 to SimpleIterationSolver(start)
+        3 to NewtonSimpleSolver(start)
     )
 
 //    val system = ExampleSystem3D();
