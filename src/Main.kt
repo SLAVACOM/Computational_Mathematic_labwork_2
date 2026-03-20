@@ -14,7 +14,8 @@ fun main() {
 
     val strategies: Map<Int, Solver> = mapOf(
         1 to NewtonSolver(start),
-        2 to SimpleIterationSolver(start)
+        2 to SimpleIterationSolver(start),
+        3 to SimpleIterationSolver(start)
     )
 
 //    val system = ExampleSystem3D();
@@ -56,6 +57,7 @@ fun printMenu() {
         """Выберите метод решения:
 1 - Метод Ньютона
 2 - Метод простых итераций
+3 - Метод простых итераций явный
 0 - Выход
         """.trimIndent()
     )
