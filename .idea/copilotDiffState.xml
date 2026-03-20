@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/.gitignore">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/.gitignore" />
+              <option name="originalContent" value="### IntelliJ IDEA ###&#10;out/&#10;!**/src/main/**/out/&#10;!**/src/test/**/out/&#10;.kotlin&#10;&#10;### Eclipse ###&#10;.apt_generated&#10;.classpath&#10;.factorypath&#10;.project&#10;.settings&#10;.springBeans&#10;.sts4-cache&#10;bin/&#10;!**/src/main/**/bin/&#10;!**/src/test/**/bin/&#10;&#10;### NetBeans ###&#10;/nbproject/private/&#10;/nbbuild/&#10;/dist/&#10;/nbdist/&#10;/.nb-gradle/&#10;&#10;### VS Code ###&#10;.vscode/&#10;&#10;### Mac OS ###&#10;.DS_Store" />
+              <option name="updatedContent" value="### IntelliJ IDEA ###&#10;.idea/&#10;*.iml&#10;out/&#10;&#10;### Kotlin / JVM ###&#10;.kotlin/&#10;*.class&#10;*.jar&#10;*.war&#10;*.ear&#10;&#10;### Build tools ###&#10;build/&#10;target/&#10;dist/&#10;&#10;### Editors ###&#10;.vscode/&#10;&#10;### Logs and runtime ###&#10;*.log&#10;hs_err_pid*&#10;replay_pid*&#10;&#10;### OS files ###&#10;.DS_Store&#10;Thumbs.db" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/CHANGELOG.md">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/CHANGELOG.md" />
+              <option name="updatedContent" value="# Changelog&#10;&#10;Все заметные изменения в проекте фиксируются в этом файле.&#10;&#10;Формат вдохновлен принципом Keep a Changelog.&#10;&#10;## [Unreleased]&#10;&#10;- Подготовлено базовое Git-оформление репозитория.&#10;&#10;## [0.1.0] - 2026-03-20&#10;&#10;### Added&#10;&#10;- Реализованы решатели `NewtonSolver` и `SimpleIterationSolver`.&#10;- Добавлены примеры нелинейных систем 2D/3D.&#10;- Добавлены базовые математические структуры `Vector` и `Matrix`.&#10;- Добавлено описание проекта и быстрый старт в `README.md`.&#10;- Добавлены файлы `LICENSE`, `CONTRIBUTING.md` и `CODE_OF_CONDUCT.md`.&#10;&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/CODE_OF_CONDUCT.md">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/CODE_OF_CONDUCT.md" />
+              <option name="updatedContent" value="# Code of Conduct&#10;&#10;Этот учебный репозиторий поддерживает уважительное и профессиональное общение.&#10;&#10;## Наши принципы&#10;&#10;- Вежливость и конструктивная обратная связь.&#10;- Уважение к различным мнениям и уровню подготовки участников.&#10;- Фокус на техническом обсуждении, а не на личности.&#10;&#10;## Неприемлемое поведение&#10;&#10;- Оскорбления, травля, дискриминационные высказывания.&#10;- Агрессивная или токсичная коммуникация.&#10;- Публикация личной информации без согласия.&#10;&#10;## Контакты&#10;&#10;Если возникла проблема с коммуникацией, создайте приватное обращение владельцу репозитория (`slava`) через удобный канал.&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/CONTRIBUTING.md">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/CONTRIBUTING.md" />
+              <option name="updatedContent" value="# Contributing&#10;&#10;Спасибо за интерес к проекту.&#10;&#10;## Как предложить изменения&#10;&#10;1. Сделайте форк или создайте ветку от `main`.&#10;2. Назовите ветку по смыслу, например: `feature/new-system` или `fix/newton-stop-criteria`.&#10;3. Внесите изменения небольшими логичными коммитами.&#10;4. Откройте Pull Request с кратким описанием: что изменено и зачем.&#10;&#10;## Минимальные правила&#10;&#10;- Соблюдайте читаемость кода и понятные имена.&#10;- Не смешивайте в одном PR несвязанные изменения.&#10;- Если меняется поведение алгоритма, добавьте пояснение в `README.md` или `CHANGELOG.md`.&#10;&#10;## Рекомендации по сообщениям коммитов&#10;&#10;Используйте короткий формат:&#10;&#10;- `feat: add new 3d nonlinear system`&#10;- `fix: improve simple iteration stopping condition`&#10;- `docs: update quick start section`&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/LICENSE">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/LICENSE" />
+              <option name="updatedContent" value="MIT License&#10;&#10;Copyright (c) 2026 slava&#10;&#10;Permission is hereby granted, free of charge, to any person obtaining a copy&#10;of this software and associated documentation files (the &quot;Software&quot;), to deal&#10;in the Software without restriction, including without limitation the rights&#10;to use, copy, modify, merge, publish, distribute, sublicense, and/or sell&#10;copies of the Software, and to permit persons to whom the Software is&#10;furnished to do so, subject to the following conditions:&#10;&#10;The above copyright notice and this permission notice shall be included in all&#10;copies or substantial portions of the Software.&#10;&#10;THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR&#10;IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,&#10;FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE&#10;AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER&#10;LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,&#10;OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE&#10;SOFTWARE.&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/README.md">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/README.md" />
+              <option name="updatedContent" value="# Computational Mathematic Labwork 2&#10;&#10;## Лабораторная работа 3-4&#10;&#10;Учебный проект по вычислительной математике: численное решение нелинейных систем уравнений методами Ньютона и простых итераций.&#10;&#10;## Технологии&#10;&#10;- Язык: `Kotlin`&#10;- Платформа: `JVM`&#10;- Тип приложения: консольное&#10;&#10;## Что реализовано&#10;&#10;- Решение систем нелинейных уравнений для 2D и 3D примеров&#10;- Метод Ньютона (`NewtonSolver`)&#10;- Метод простых итераций (`SimpleIterationSolver`)&#10;- Базовые математические структуры (`Vector`, `Matrix`)&#10;- Логирование итерационного процесса&#10;&#10;## Как работает программа&#10;&#10;1. В `src/Main.kt` выбирается система и метод решения.&#10;2. Система уравнений берется из `src/system/`.&#10;3. Решатель из `src/solver/` выполняет итерации до достижения критерия остановки.&#10;4. Вычисления опираются на `src/math/`.&#10;5. Данные о шагах решения собираются в `src/utill/`.&#10;6. В консоль выводится найденное приближение и статус сходимости.&#10;&#10;## Структура проекта&#10;&#10;```text&#10;src/&#10;  Main.kt&#10;  math/&#10;&#9;Decision.kt&#10;&#9;Matrix.kt&#10;&#9;Vector.kt&#10;  solver/&#10;&#9;NewtonSolver.kt&#10;&#9;SimpleIterationSolver.kt&#10;&#9;Solver.kt&#10;  system/&#10;&#9;ExampleSystem3D.kt&#10;&#9;NonlinearSystem.kt&#10;&#9;System2D.kt&#10;  utill/&#10;&#9;IterationLogger.kt&#10;&#9;SolverContext.kt&#10;```&#10;&#10;## Быстрый старт&#10;&#10;### В IntelliJ IDEA&#10;&#10;1. Откройте проект как папку.&#10;2. Убедитесь, что подключен Kotlin SDK/JDK.&#10;3. Запустите `src/Main.kt`.&#10;&#10;### Через CLI (PowerShell)&#10;&#10;```powershell&#10;$sources = Get-ChildItem -Path .\src -Recurse -Filter *.kt | ForEach-Object { $_.FullName }&#10;kotlinc $sources -include-runtime -d .\app.jar&#10;java -jar .\app.jar&#10;```&#10;&#10;## Git-файлы проекта&#10;&#10;- `LICENSE` - текст лицензии MIT&#10;- `CONTRIBUTING.md` - краткие правила для вкладов&#10;- `CODE_OF_CONDUCT.md` - нормы общения в репозитории&#10;- `CHANGELOG.md` - история изменений&#10;&#10;## Автор&#10;&#10;`slava`&#10;&#10;## Лицензия&#10;&#10;Проект распространяется по лицензии MIT. Подробности: `LICENSE`." />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
