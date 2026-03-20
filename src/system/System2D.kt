@@ -15,7 +15,7 @@ class System2D : NonlinearSystem {
 
         return Vector(
             doubleArrayOf(
-                x*x + y*y - x*y - 7,
+                x * x + y * y - x * y - 7,
                 x - y - 1
             )
         )
@@ -28,20 +28,23 @@ class System2D : NonlinearSystem {
 
         return Matrix(
             arrayOf(
-                doubleArrayOf(2*x - y, 2*y - x),
+                doubleArrayOf(2 * x - y, 2 * y - x),
                 doubleArrayOf(1.0, -1.0)
             )
         )
     }
 
     override fun phi(f: Vector): Vector {
-
+        val x = f[0]
         val y = f[1]
+
+        val nextX = x - 0.25 * (x * x + y * y - x * y - 7) + 0.25 * (x - y - 1)
+        val nextY = y - 0.25 * (x * x + y * y - x * y - 7) + 1.25 * (x - y - 1)
 
         return Vector(
             doubleArrayOf(
-                y + 1,
-                sqrt(6 - y)
+                nextX,
+                nextY
             )
         )
     }

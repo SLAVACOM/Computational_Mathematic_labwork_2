@@ -4,7 +4,6 @@ import solver.NewtonSolver
 import solver.SimpleIterationSolver
 import solver.Solver
 import system.ExampleSystem3D
-import utill.SolverContext
 
 
 private const val epsilon = 1e-4
